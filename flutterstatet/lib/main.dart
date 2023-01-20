@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutterstatet/riverpod.dart';
+import 'package:flutterstatet/state_notifier_kullanimi.dart';
 
 void main() {
-  runApp(const ProviderScope(child: RiverpodBasic()));
+  runApp(const ProviderScope(child: StateNotifierKullanimi()));
 }
 
 class MyApp extends StatelessWidget {

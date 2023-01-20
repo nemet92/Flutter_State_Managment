@@ -1,5 +1,5 @@
 class SayacModel {
-  final int sayac;
+  final int sayacDegeri;
 
-  SayacModel(this.sayac);
+  SayacModel(this.sayacDegeri);
 }
